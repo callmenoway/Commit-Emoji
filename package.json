@@ -1,6 +1,6 @@
 {
-  "name": "commit-emojifier",
-  "version": "1.0.0",
+  "name": "@callmenoway/commit-emojifier",
+  "version": "1.0.1",
   "description": "Automatically add emojis to your Git commit messages based on the type of change!",
   "main": "index.js",
   "scripts": {
