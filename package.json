@@ -1,7 +1,7 @@
 {
   "name": "commit-emoji",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automatically add emojis to your Git commit messages based on the type of change!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/callmenoway/Commit-Emoji.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "callmenoway",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/callmenoway/Commit-Emoji/issues"
   },
