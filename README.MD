@@ -1,13 +1,14 @@
 <p align="center">
   <img src="assets/wallpaper.png">
 </p>
-# Commit-Emoji 🚀🐛📚
+
+# Commit-Emojifier 🚀🐛📚
 
 **Automatically add emojis to your Git commit messages based on the type of change!**
 
 ---
 
-## 🚩 Why Commit-Emoji?
+## 🚩 Why Commit-Emojifier?
 
 - Makes your Git history more readable with clear, intuitive emojis
 - Helps you quickly identify if a commit is a feature, bugfix, docs update, etc.
@@ -20,8 +21,8 @@
 ## 🎯 Key Features
 
 - Git `prepare-commit-msg` hook that modifies commit messages automatically
-- Customizable emoji mapping via a `.commitemoji.json` config file
-- Simple setup with a single command: `commit-emoji init`
+- Customizable emoji mapping via a `.commitemojifier.json` config file
+- Simple setup with a single command: `commit-emojifier init`
 - Supports common commit types: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`, `style`
 - Works with any Git client or editor
 
@@ -37,10 +38,10 @@
 ### Steps
 
 ```bash
-npm install -g commit-emoji
-cd your-project
+npm install -g commit-emojifier
+cd commit-emojifier
 git init      # if you don't have a repo yet
-commit-emoji init
+commit-emojifier init
 ```
 - This installs the Git hook required for emoji injection.
 
@@ -62,7 +63,7 @@ git commit -m "fix: resolve authentication bug"
 
 ## ⚙️ Customization
 
-Create a `.commitemoji.json` file in your project root to define custom emoji mappings:
+Create a `.commitemojifier.json` file in your project root to define custom emoji mappings:
 
 ```json
 {
@@ -83,7 +84,7 @@ The tool will prioritize your custom config if present.
 1. Clone the repository
 2. Install dependencies: `npm install`
 3. Link package locally: `npm link`
-4. Test in a sample repo: `commit-emoji init`
+4. Test in a sample repo: `commit-emojifier init`
 
 ## 📢 Contributing
 

@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 const fs = require("fs");
 const path = require("path");
-const emojiMap = require("../lib/emojiMap");
-
 const args = process.argv.slice(2);
 
 if (args[0] === "init") {
@@ -13,8 +11,8 @@ if (args[0] === "init") {
     `;
 
     fs.writeFileSync(hookPath, hookContent, { mode: 0o755 });
-    console.log("✅ Commit-Emoji hook installed!");
+    console.log("✅ Commit-Emojifier hook installed!");
     process.exit(0);
 }
 
-console.log("Usage: commit-emoji init");
+console.log("Usage: commit-emojifier init");

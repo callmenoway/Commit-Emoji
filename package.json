@@ -1,5 +1,5 @@
 {
-  "name": "commit-emoji",
+  "name": "commit-emojifier",
   "version": "1.0.0",
   "description": "Automatically add emojis to your Git commit messages based on the type of change!",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/callmenoway/Commit-Emoji.git"
+    "url": "git+https://github.com/callmenoway/Commit-Emojifier.git"
   },
   "keywords": [],
   "author": "callmenoway",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/callmenoway/Commit-Emoji/issues"
+    "url": "https://github.com/callmenoway/Commit-Emojifier/issues"
   },
   "homepage": "https://github.com/callmenoway/Commit-Emoji#readme",
   "bin": {
